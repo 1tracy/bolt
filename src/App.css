@@ -1,38 +1,251 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg, #AFDFE5 0%, #AFDFE5 100%);
+  color: white;
+  font-family: "Work", sans-serif;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
+header {
+  font-size: 2rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  padding: 1rem;
+  
+  font-size: 1rem;
+  border: none;
+  background: white;
+}
+form input {
+  border-radius: 25px 0px 0px 25px;
+  min-width: 30%;
+}
+
+form button {
+  border-radius: 0px 25px 25px 0px;
+}
+
+form button {
+  color: #FFD7A5;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form button:hover {
+  background: #FFD7A5;
+  color: white;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 80%;
+  list-style: none;
+
+}
+
+.todo {
+  margin: 0.5rem;
+  background: #FFD7A5;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+  border-radius: 25px;
+  padding: 0px 0px 0px 10px;
+}
+.filter-todo {
+  padding: 1rem;
+}
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  background: #FFD7A5;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 25px;
+  margin: 5px;
+}
+.complete-btn {
+  background: #FFD7A5;
+  color: #FFD7A5;
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.btn-tree, .btn-settings, .btn-calendar, .btn-todo, .btn-begin {
+  border: none;
+  border-radius: 30px;
+}
+.btn-tree {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 35px;
+  top: 32px;
+  background-image: url("tree.svg");
+  
+}
+.btn-calendar {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 35px;
+  top: 106px;
+  background-image: url("calendar.svg");
+  background-size: 63px;
+}
+.btn-settings {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 35px;
+  top: 180px;
+  background-image: url("settings.svg");
+  background-size: 65px;
+}
+
+.btn-todo {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 35px;
+  top: 255px;
+  color: white;
+}
+.fa-trash,
+.fa-check {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/*CUSTOM SELECTOR */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+/* Custom Select */
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  width: 12rem;
+  border-radius: 25px;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background: #FFD7A5;
+  cursor: pointer;
+  pointer-events: none;
+  border-radius: 0 25px 25px 0;
+}
+
+/* Transition */
+/*
+.select:hover::after {
+  transform: scale(1.5);
+}
+*/
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  background: #AFDFE5;
+}
+.title, .title_2 {
+  font-family: 'Work Sans', sans-serif;
+  font-style: Light 300;
+  font-size: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+
+}
+.title_2 {
+  font-size: 30px;
+}
+.slogan {
+
+  font-family: Bitter;
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  color: #D1FFCC;
 }
 
-.App-link {
-  color: #61dafb;
+.rect {
+  width:50%;
+  height: 15%;
+  background-color: lightgray;
+  position: absolute;
+  display: flex;
+  left: 25%;
+  padding:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-begin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  min-width: 98%;
+  margin: 10px;
+  font-family: Bitter;
+  font-size: 2rem;
+  font-style: bold;
+  text-align: center;
+  color: #FFD7A5;
+
 }
