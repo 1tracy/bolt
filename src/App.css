@@ -21,6 +21,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 form input,
 form button {
   padding: 1rem;
@@ -31,7 +32,7 @@ form button {
 }
 form input {
   border-radius: 25px 0px 0px 25px;
-  min-width: 30%;
+  min-width: 80%;
 }
 
 form button {
