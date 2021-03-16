@@ -250,3 +250,467 @@ body {
   color: #FFD7A5;
 
 }
+/* welcome Page */
+.welcomePageIntro{
+  position: absolute;
+    width: 631px;
+    height: 197px;
+    left: 404px;
+    top: 103px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    color:white;
+}
+.welcomePageImg {
+  position: absolute;
+  width: 402px;
+  height: 402px;
+  left: 519px;
+  top: 328px;
+}
+
+.btn-startNow {
+  padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    border: none;
+    box-sizing: border-box;
+    background: #caeefd;
+    position: absolute;
+    width: 482px;
+    height: 77px;
+    left: 479px;
+    top: 796px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+    color: #FFD7A5;
+    font-size: 40px;
+    line-height: 26.8px;
+    font-family: Bitter;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.btn-startNow:hover {
+  background: #999d9e;
+}
+
+.btn-startNow:active {
+  outline: none;
+  background: #95cae0;
+}
+
+.btn-startNow:focus {
+  outline: none;
+}
+
+/* Calendar page*/
+.calendarTitle {
+  position: absolute;
+  width: 916px;
+  height: 113px;
+  left: 262px;
+  top: 44px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 113px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.dayFrame{
+  position: absolute;
+  width: 1072px;
+  height: 172px;
+  left: 184px;
+  top: 198px;
+}
+
+.calendar1 {
+  position:absolute;
+  width: 164px;
+  height: 170px;
+  left: 184px;
+  top: 200px;
+  background-image: url("image 10.svg");
+}
+
+.calendar2 {
+  position:absolute;
+  width: 164px;
+  height: 170px;
+  left: 336px;
+  top: 200px;
+  background-image: url("image 10.svg");
+}
+
+.calendar3{
+  position:absolute;
+  width: 164px;
+  height: 170px;
+  left: 486px;
+  top: 200px;
+  background-image: url("image 10.svg");
+}
+
+.calendar4 {
+  position:absolute;
+  width: 164px;
+  height: 170px;
+  left: 640px;
+  top: 200px;
+  background-image: url("image 10.svg");
+}
+
+.calendar5 {
+  position:absolute;
+  width: 164px;
+  height: 170px;
+  left: 788px;
+  top: 200px;
+  background-image: url("image 10.svg");
+}
+.calendar6 {
+  position:absolute;
+  width: 164px;
+  height: 170px;
+  left: 942px;
+  top: 200px;
+  background-image: url("image 10.svg");
+}
+.calendar7 {
+  position:absolute;
+  width: 164px;
+  height: 170px;
+  left: 1092px;
+  top: 200px;
+  background-image: url("image 10.svg");
+}
+
+.sundayTasks{
+  position: absolute;
+  width: 111px;
+  height: 84px;
+  top: 266px;
+  left: 210px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #8A8A8A;
+
+  text-align: center;
+  background-color: #D1FFCC;
+}
+
+.mondayTasks{
+  position: absolute;
+  width: 111px;
+  height: 84px;
+  top: 267px;
+  left: 362px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #8A8A8A;
+
+  text-align: center;
+  background-color: #D1FFCC;
+}
+
+.tuesdayTasks{
+  position: absolute;
+  width: 111px;
+  height: 84px;
+  top: 266px;
+  left: 512px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #8A8A8A;
+
+  text-align: center;
+  background-color: #D1FFCC;
+}
+
+.wednesdayTasks{
+  position: absolute;
+  width: 112px;
+  height: 84px;
+  top: 267px;
+  left: 665px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #8A8A8A;
+
+  text-align: center;
+  background-color: #D1FFCC;
+}
+
+.thursdayTasks{
+  position: absolute;
+  width: 111px;
+  height: 84px;
+  top: 267px;
+  left: 814px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #8A8A8A;
+
+  text-align: center;
+  background-color: #D1FFCC;
+}
+
+.fridayTasks{
+  position: absolute;
+  width: 111px;
+  height: 84px;
+  top: 267px;
+  left: 968px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #8A8A8A;
+
+  text-align: center;
+  background-color: #D1FFCC;
+}
+
+.saturdayTasks{
+  position: absolute;
+  width: 109px;
+  height: 84px;
+  top: 267px;
+  left: 1119px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #8A8A8A;
+
+  text-align: center;
+  background-color: #D1FFCC;
+}
+.sunday{
+  position: absolute;
+  width: 955px;
+  height: 84px;
+  left: 224px;
+  top: 368px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+
+.monday{
+  position: absolute;
+  width: 140px;
+  height: 84px;
+  left: 366px;
+  top: 368px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+
+.tuesday{
+  position: absolute;
+  width: 140px;
+  height: 84px;
+  left: 508px;
+  top: 368px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+.wednesday{
+  position: absolute;
+  width: 140px;
+  height: 84px;
+  left: 675px;
+  top: 368px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+
+.thursday{
+  position: absolute;
+  width: 140px;
+  height: 84px;
+  left: 810px;
+  top: 368px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+
+.friday{
+  position: absolute;
+  width: 140px;
+  height: 84px;
+  left: 990px;
+  top: 368px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+
+.saturday{
+  position: absolute;
+  width: 140px;
+  height: 84px;
+  left: 1140px;
+  top: 368px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 84px;
+  color: #000000;
+}
+
+.firstConclude {
+  position: absolute;
+  width: 834px;
+  height: 100px;
+  left: 321px;
+  top: 469px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 113px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.secondConclude {
+  position: absolute;
+  width: 834px;
+  height: 100px;
+  left: 321px;
+  top: 582px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 113px;
+  text-align: center;
+  color: #D1FFCC ;
+}
+
+.thirdConclude {
+  position: absolute;
+  width: 834px;
+  height: 100px;
+  left: 321px;
+  top: 695px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 113px;
+  text-align: center;
+  color: #FFFFFF ;
+}
+
+.btn-award {
+  position: absolute;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border: none;
+  box-sizing: border-box;
+  width: 482px;
+  height: 77px;
+  left: 479px;
+  top: 844px;
+  background: #FFFFFF;
+  
+
+}
+
+.btn-award:hover{
+  background:#AFDFE5;
+}
+
+.btn-award:active {
+  outline: none;
+  background:  #FFFFFF;
+}
+
+.btn-award:focus {
+  outline: none;
+}
+.award{
+  position: absolute;
+  width: 224px;
+  height: 75px;
+  left: 130px;
+  top: 5px;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #8A8A8A ;
+}
