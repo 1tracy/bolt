@@ -3,8 +3,10 @@ import './App.css';
 
 function Settings() {
     return (
-        <div>
-            <h1>Plant</h1>
+        <div class="settingDiv">
+            <h1>Starting your membership today?  😈 </h1>
+            <p>Unlook premiem features and explore unlimited possibilities...</p>
+            <button class="button button1">Join right now ➕</button>
         </div>
     )
 }

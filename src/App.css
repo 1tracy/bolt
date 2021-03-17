@@ -316,3 +316,24 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.settingDiv {
+  text-align: center;
+  line-height: 50px;
+}
+
+.button1 {
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border: end;
+  box-sizing: border-box;
+  font-weight: bold;
+  background: white;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+}
+
+.button1:hover {
+  background: #1fd85d;
+}
