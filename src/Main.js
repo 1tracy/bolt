@@ -7,7 +7,7 @@ import Plant from './Plant';
 function Main() {
     return (
         <div>
-            <h1>Plant</h1>
+            <h1>Main</h1>
         </div>
     )
 }
