@@ -12,6 +12,7 @@ function Calendar() {
         const totalTasks = Object.values(tasks).flat().length;
         console.log(tasks);
         console.log(totalTasks);
+        return totalTasks;
     }
     useEffect(() => {
         RetrieveArray();
@@ -44,7 +45,7 @@ function Calendar() {
             <h1 className='friday'>FRI</h1>
             <h1 className='saturday'>SAT</h1>
             <h1 className='firstConclude'>you've completed </h1>
-            <h1 className='secondConclude'>38 tasks</h1>
+            <h1 className='secondConclude'> {RetrieveArray()} tasks</h1>
             <h1 className='thirdConclude'>this week!</h1>
 
             <nav>

@@ -9,7 +9,7 @@
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 76px;
     line-height: 113px;
     text-align: center;
     color: #FFFFFF;
@@ -17,7 +17,7 @@
   .dayFrame{
     position: absolute;
     width: 1072px;
-    height: 172px;
+    height: 152px;
     left: 184px;
     top: 198px;
   }
@@ -27,7 +27,7 @@
     width: 164px;
     height: 170px;
     left: 184px;
-    top: 200px;
+    top: 160px;
     background-image: url("image 10.svg");
   }
   
@@ -36,7 +36,7 @@
     width: 164px;
     height: 170px;
     left: 336px;
-    top: 200px;
+    top: 160px;
     background-image: url("image 10.svg");
   }
   
@@ -45,7 +45,7 @@
     width: 164px;
     height: 170px;
     left: 486px;
-    top: 200px;
+    top: 160px;
     background-image: url("image 10.svg");
   }
   
@@ -54,7 +54,7 @@
     width: 164px;
     height: 170px;
     left: 640px;
-    top: 200px;
+    top: 160px;
     background-image: url("image 10.svg");
   }
   
@@ -63,7 +63,7 @@
     width: 164px;
     height: 170px;
     left: 788px;
-    top: 200px;
+    top: 160px;
     background-image: url("image 10.svg");
   }
   .calendar6 {
@@ -71,7 +71,7 @@
     width: 164px;
     height: 170px;
     left: 942px;
-    top: 200px;
+    top: 160px;
     background-image: url("image 10.svg");
   }
   .calendar7 {
@@ -79,7 +79,7 @@
     width: 164px;
     height: 170px;
     left: 1092px;
-    top: 200px;
+    top: 160px;
     background-image: url("image 10.svg");
   }
   
@@ -87,7 +87,7 @@
     position: absolute;
     width: 111px;
     height: 84px;
-    top: 266px;
+    top: 226px;
     left: 210px;
   
     font-family: 'Work Sans', sans-serif;
@@ -105,7 +105,7 @@
     position: absolute;
     width: 111px;
     height: 84px;
-    top: 267px;
+    top: 227px;
     left: 362px;
   
     font-family: 'Work Sans', sans-serif;
@@ -123,7 +123,7 @@
     position: absolute;
     width: 111px;
     height: 84px;
-    top: 266px;
+    top: 226px;
     left: 512px;
   
     font-family: 'Work Sans', sans-serif;
@@ -141,7 +141,7 @@
     position: absolute;
     width: 112px;
     height: 84px;
-    top: 267px;
+    top: 227px;
     left: 665px;
   
     font-family: 'Work Sans', sans-serif;
@@ -159,7 +159,7 @@
     position: absolute;
     width: 111px;
     height: 84px;
-    top: 267px;
+    top: 227px;
     left: 814px;
   
     font-family: 'Work Sans', sans-serif;
@@ -177,7 +177,7 @@
     position: absolute;
     width: 111px;
     height: 84px;
-    top: 267px;
+    top: 227px;
     left: 968px;
   
     font-family: 'Work Sans', sans-serif;
@@ -195,7 +195,7 @@
     position: absolute;
     width: 109px;
     height: 84px;
-    top: 267px;
+    top: 227px;
     left: 1119px;
   
     font-family: 'Work Sans', sans-serif;
@@ -213,7 +213,7 @@
     width: 955px;
     height: 84px;
     left: 224px;
-    top: 368px;
+    top: 328px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -228,7 +228,7 @@
     width: 140px;
     height: 84px;
     left: 366px;
-    top: 368px;
+    top: 328px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -243,7 +243,7 @@
     width: 140px;
     height: 84px;
     left: 508px;
-    top: 368px;
+    top: 328px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -257,7 +257,7 @@
     width: 140px;
     height: 84px;
     left: 675px;
-    top: 368px;
+    top: 328px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -272,7 +272,7 @@
     width: 140px;
     height: 84px;
     left: 810px;
-    top: 368px;
+    top: 328px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -287,7 +287,7 @@
     width: 140px;
     height: 84px;
     left: 990px;
-    top: 368px;
+    top: 328px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -302,7 +302,7 @@
     width: 140px;
     height: 84px;
     left: 1140px;
-    top: 368px;
+    top: 328px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -317,12 +317,12 @@
     width: 834px;
     height: 100px;
     left: 321px;
-    top: 469px;
+    top: 389px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 76px;
     line-height: 113px;
     text-align: center;
     color: #FFFFFF;
@@ -333,12 +333,12 @@
     width: 834px;
     height: 100px;
     left: 321px;
-    top: 582px;
+    top: 502px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 76px;
     line-height: 113px;
     text-align: center;
     color: #D1FFCC ;
@@ -349,12 +349,12 @@
     width: 834px;
     height: 100px;
     left: 321px;
-    top: 695px;
+    top: 605px;
   
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 96px;
+    font-size: 76px;
     line-height: 113px;
     text-align: center;
     color: #FFFFFF ;
@@ -369,7 +369,7 @@
     width: 482px;
     height: 77px;
     left: 479px;
-    top: 844px;
+    top: 714px;
     background: #FFFFFF;
     
   
