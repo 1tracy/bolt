@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import './App.css';
 
 function Calendar() {
-  /*
-    const tasks = JSON.parse(localStorage.getItem('todos'));
-    const totalTasks = Object.values(tasks).flat().length;
-    */
 
+    const RetrieveArray = () => {
+        const tasks = JSON.parse(localStorage.getItem('todos'));
+        const totalTasks = Object.values(tasks).flat().length;
+        console.log(tasks);
+        console.log(totalTasks);
+    }
+    useEffect(() => {
+        RetrieveArray();
+    }, []);
+    
    return (
     <div >
         <h1 className = 'calendarTitle'>a look at your week</h1>
