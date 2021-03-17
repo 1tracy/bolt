@@ -5,6 +5,7 @@ import Calendar from './Calendar';
 import Plant from './Plant';
 import Settings from './Settings';
 import TodoMain from './TodoMain';
+import Awards from './Awards';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
@@ -19,7 +20,9 @@ function App() {
           <Route path="/calendar" component={Calendar} />
           <Route path="/settings" component={Settings} />
           <Route path="/todo" component={TodoMain} />
+          <Route path="/awards" component={Awards} />
           <Route path="/" exact component={Home} />
+          
         </Switch>
       </Router>
 
