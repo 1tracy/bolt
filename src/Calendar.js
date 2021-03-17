@@ -48,7 +48,7 @@ function Calendar() {
             <h1 className='thirdConclude'>this week!</h1>
 
             <nav>
-                <Link path='/awards'>
+                <Link to='/awards'>
                     <button className='btn-award'>
                     <h1 className='award'>Awards</h1>
                     </button>
