@@ -21,6 +21,7 @@ function App() {
     // when todos changes, the function is run
     useEffect(() => {
         filterHandler();
+        saveLocalTodos();
     }, [todos, status]);
 
 
