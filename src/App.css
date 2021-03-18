@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 body {
   background-image: linear-gradient(120deg, #AFDFE5 0%, #AFDFE5 100%);
@@ -110,7 +111,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 32px;
-  background-image: url("tree.svg");
+  background-image: url("img/tree.svg");
   
 }
 .btn-calendar {
@@ -119,7 +120,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 106px;
-  background-image: url("calendar.svg");
+  background-image: url("img/calendar.svg");
   background-size: 63px;
 }
 .btn-settings {
@@ -128,7 +129,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 180px;
-  background-image: url("settings.svg");
+  background-image: url("img/settings.svg");
   background-size: 65px;
 }
 
@@ -138,7 +139,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 255px;
-  background-image: url("todoCheck.svg");
+  background-image: url("img/todoCheck.svg");
   
 }
 
@@ -319,11 +320,16 @@ body {
 
 .settingDiv {
   text-align: center;
-  line-height: 50px;
+  line-height: 60px;
+  font-size: 1.5em;
+  font-family: "Work", sans-serif;
 }
 
 .button1 {
-  padding: 0.7em 1.4em;
+  border: none;
+  color:  #FFD7A5;
+  font-family: "Work", sans-serif;
+  padding: 1em 1.5em;
   margin: 0 0.3em 0.3em 0;
   border: end;
   box-sizing: border-box;
@@ -335,7 +341,8 @@ body {
 }
 
 .button1:hover {
-  background: #1fd85d;
+  color: white;
+  background: #FFD7A5;
 }
 
 .plantimg {
@@ -346,6 +353,6 @@ body {
   right: 0;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-image: url("plant1.svg");
+  background-image: url("img/plant1.svg");
   z-index: -1;
 }
