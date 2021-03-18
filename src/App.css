@@ -337,3 +337,15 @@ body {
 .button1:hover {
   background: #1fd85d;
 }
+
+.plantimg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url("plant1.svg");
+  z-index: -1;
+}
