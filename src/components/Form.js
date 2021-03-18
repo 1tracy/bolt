@@ -12,7 +12,7 @@ const Form = ({ inputText, setInputText, todos, setTodos, setStatus }) => {
         console.log("submitted to handler");
         e.preventDefault();
         setTodos([
-            ...todos, {text: inputText, completed: false, id: Math.random() * 1000}
+            ...todos, {text: inputText, completed: false, id: Math.random() * 1000, timestamp: new Date().getTime()}
         ]);
 
         setInputText("");
