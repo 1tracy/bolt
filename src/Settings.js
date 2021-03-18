@@ -6,7 +6,7 @@ function Settings() {
         <div className="settingDiv">
             <h1>Starting your membership today?  😈 </h1>
             <p>Unlock premium features and explore unlimited possibilities...</p>
-            <button class="button button1">Join right now ➕</button>
+            <button className="button button1">Join right now ➕</button>
         </div>
     )
 }
