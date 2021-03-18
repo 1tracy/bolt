@@ -1,6 +1,6 @@
 
 .box-1, .box-2, .box-3, .box-4, .box-5 {
-    background-image: url("awardImg.svg");
+    background-image: url("img/awardImg.svg");
     height: auto;
     min-height: 200%;
     background-repeat:no-repeat;

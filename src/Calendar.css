@@ -28,7 +28,7 @@
     height: 170px;
     left: 184px;
     top: 160px;
-    background-image: url("image 10.svg");
+    background-image: url("img/image 10.svg");
   }
   
   .calendar2 {
@@ -37,7 +37,7 @@
     height: 170px;
     left: 336px;
     top: 160px;
-    background-image: url("image 10.svg");
+    background-image: url("img/image 10.svg");
   }
   
   .calendar3{
@@ -46,7 +46,7 @@
     height: 170px;
     left: 486px;
     top: 160px;
-    background-image: url("image 10.svg");
+    background-image: url("img/image 10.svg");
   }
   
   .calendar4 {
@@ -55,7 +55,7 @@
     height: 170px;
     left: 640px;
     top: 160px;
-    background-image: url("image 10.svg");
+    background-image: url("img/image 10.svg");
   }
   
   .calendar5 {
@@ -64,7 +64,7 @@
     height: 170px;
     left: 788px;
     top: 160px;
-    background-image: url("image 10.svg");
+    background-image: url("img/image 10.svg");
   }
   .calendar6 {
     position:absolute;
@@ -72,7 +72,7 @@
     height: 170px;
     left: 942px;
     top: 160px;
-    background-image: url("image 10.svg");
+    background-image: url("img/image 10.svg");
   }
   .calendar7 {
     position:absolute;
@@ -80,7 +80,7 @@
     height: 170px;
     left: 1092px;
     top: 160px;
-    background-image: url("image 10.svg");
+    background-image: url("img/image 10.svg");
   }
   
   .sundayTasks{

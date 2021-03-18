@@ -111,7 +111,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 32px;
-  background-image: url("tree.svg");
+  background-image: url("img/tree.svg");
   
 }
 .btn-calendar {
@@ -120,7 +120,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 106px;
-  background-image: url("calendar.svg");
+  background-image: url("img/calendar.svg");
   background-size: 63px;
 }
 .btn-settings {
@@ -129,7 +129,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 180px;
-  background-image: url("settings.svg");
+  background-image: url("img/settings.svg");
   background-size: 65px;
 }
 
@@ -139,7 +139,7 @@ form button:hover {
   height: 65px;
   left: 35px;
   top: 255px;
-  background-image: url("todoCheck.svg");
+  background-image: url("img/todoCheck.svg");
   
 }
 
@@ -348,6 +348,6 @@ body {
   right: 0;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-image: url("plant1.svg");
+  background-image: url("img/plant1.svg");
   z-index: -1;
 }
