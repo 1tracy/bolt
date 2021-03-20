@@ -65,7 +65,7 @@ function App() {
                 setStatus={setStatus} />
             <ToDoList filterTodos={filterTodos} setTodos={setTodos} todos={todos} />
 
-            <div id="rect">Advertisement</div>
+            <div className="rect">Advertisement</div>
         </div>
     );
 }
