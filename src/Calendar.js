@@ -35,7 +35,7 @@ function Calendar() {
                 <h1 className='calendar6'></h1>
                 <h1 className='fridayTasks'>11</h1>
                 <h1 className='calendar7'></h1>
-                <h1 className='saturdayTasks'></h1>
+                <h1 className='saturdayTasks'>{RetrieveArray()}</h1>
             </div>
             <h1 className='sunday'>SUN </h1>
             <h1 className='monday'>MON</h1>
@@ -45,7 +45,7 @@ function Calendar() {
             <h1 className='friday'>FRI</h1>
             <h1 className='saturday'>SAT</h1>
             <h1 className='firstConclude'>you've completed </h1>
-            <h1 className='secondConclude'> {RetrieveArray()} tasks</h1>
+            <h1 className='secondConclude'> {38 + RetrieveArray()} tasks</h1>
             <h1 className='thirdConclude'>this week!</h1>
 
             <nav>
