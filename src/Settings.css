@@ -1,0 +1,147 @@
+.dot {
+    border-radius: 100%;
+    position: absolute;
+    width: 14vh;
+    height: 14vh;
+    left: 94vh;
+    top: 3vh;
+    background: #FFFFFF;
+}
+
+.accountname {
+    position: absolute;
+    width: 20vh;
+    height: 20vh;  
+    left: 90vh;
+    top: 18vh;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;    
+    font-size: 0.9em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mainrect {
+    box-shadow: #d1d1d1 2px 2px;
+    position: absolute;
+    width: 124vh;
+    height: 32vh;
+    left: 45vh;
+    top: 27vh;
+    background: #FFD7A5;
+}
+
+.term1, .term2, .term3, .term4, .term5, .term6, .termA, .termB, .termC, .termD, .termE, .termF, .termG, .termH {
+    font-size: 0.5em;
+    color: #8a8a8a;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 1vh;
+}
+.term1 {
+    top: 1vh;
+}
+.term2 {
+    top: 6vh;
+}
+.term3 {
+    top: 11vh;
+}
+.term4 {
+    top: 16vh;
+}
+.term5 {
+    top: 21vh;
+}
+.term6 {
+    top: 26vh;
+}
+.termA, .termB, .termC, .termD, .termE, .termF {
+    left: 50vh;
+}
+.termA {
+    top: 1vh;
+}
+.termB {
+    top: 6vh;
+}
+.termC {
+    top: 11vh;
+}
+.termD, .termE, .termF, .termG, .termH {
+    left: 25vh;
+    width: 30vh;
+    font-size: 0.7em;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+}
+.termD {
+    top: 8vh;
+    height: 0.4vh;
+    padding: 2vh;
+}
+.termE {
+    padding: 2vh;
+    top: 10.5vh;
+    height: 0.4vh;
+}
+.termF {
+    background-color: white;
+    top: 13vh;
+    width: 12.8em;
+}
+.termF:hover {
+    background-color: red;
+    color: white;
+}
+.termG, .termH {
+    left: 100vh;
+    width: 20vh;
+    font-size: 0.5em;
+}
+.termG:hover, .termH:hover {
+    color: white;
+    background-color: #AFDFE5;
+}
+.termG {
+    top: 16vh;
+}
+.termH {
+    top: 21vh;
+}
+.bottom1, .bottom2, .bottom3 {
+    outline: none;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 21%;
+    width: 60%;
+    height: 30%;
+}
+.bottom1 {
+    font-size: 1em;
+    top: 60%;
+}
+.bottom2 {
+    font-size: 0.6em;
+    top: 70%;
+}
+.bottom3 {
+    font-size: 0.7em;
+    padding: 2.5vh;
+    border-radius: 25px;
+    background-color: white;
+    color: #8a8a8a;
+    left: 70vh;
+    width: 70vh;
+    height: 10vh;
+    top: 80vh;
+}
+
+.bottom3:hover {
+    background-color: lightgreen;
+    color: white;
+}
