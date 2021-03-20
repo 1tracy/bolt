@@ -23,7 +23,7 @@ function Calendar() {
             <h1 className='calendarTitle'>a look at your week</h1>
             <div>
                 <h1 className='calendar1'></h1>
-                <h1 className='sundayTasks'>11</h1>
+                <h1 className='sundayTasks'>0</h1>
                 <h1 className='calendar2'></h1>
                 <h1 className='mondayTasks'>3</h1>
                 <h1 className='calendar3'></h1>
@@ -35,7 +35,7 @@ function Calendar() {
                 <h1 className='calendar6'></h1>
                 <h1 className='fridayTasks'>11</h1>
                 <h1 className='calendar7'></h1>
-                <h1 className='saturdayTasks'>13</h1>
+                <h1 className='saturdayTasks'></h1>
             </div>
             <h1 className='sunday'>SUN </h1>
             <h1 className='monday'>MON</h1>
