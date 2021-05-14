@@ -10,7 +10,6 @@ function App() {
     const [inputText, setInputText] = useState("");
     const [todos, setTodos] = useState([]);
     const [status, setStatus] = useState('all'); // default
-    const [filterTodos, setFilterTodos] = useState([]);
 
     // run once when app starts
     useEffect(() => {
@@ -23,22 +22,6 @@ function App() {
         filterHandler();
         saveLocalTodos();
     }, [todos, status]);
-
-
-    // functions and events
-    const filterHandler = () => {
-        switch (status) {
-            case 'completed':
-                setFilterTodos(todos.filter(todo => todo.completed == true)); // filtering todos to be true
-                break;
-            case 'uncompleted':
-                setFilterTodos(todos.filter(todo => todo.completed == false)); // filtering todos to be false
-                break;
-            default:
-                setFilterTodos(todos);
-                break;
-        }
-    };
 
     //saving to local storage
     const saveLocalTodos = () => {
@@ -65,7 +48,7 @@ function App() {
                 setStatus={setStatus} />
             <ToDoList filterTodos={filterTodos} setTodos={setTodos} todos={todos} />
 
-            <div className="rect">Advertisement</div>
+            <div className="advertisement">Advertisement</div>
         </div>
     );
 }
