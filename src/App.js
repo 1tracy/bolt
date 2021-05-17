@@ -8,7 +8,13 @@ import TodoMain from './TodoMain';
 import Awards from './Awards';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
+/*
 
+Created for McGill BOLT 2021
+Main Developer: Tracy Dong (github.com/1tracy)
+Team Members: Helen Xia, Emily Dai, Curry Zhong, Jerry Wang
+
+*/
 function App() {
 
   return (
